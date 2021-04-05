@@ -1,7 +1,7 @@
 use bevy::prelude::*;
 use bevy::render::pass::ClearColor;
 use rand::prelude::random;
-use std::{thread::current, time::Duration};
+use std::time::Duration;
 
 const ARENA_WIDTH: u32 = 10;
 const ARENA_HEIGHT: u32 = 10;
